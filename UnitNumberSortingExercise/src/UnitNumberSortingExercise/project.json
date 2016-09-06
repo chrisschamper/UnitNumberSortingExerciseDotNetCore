@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.0.0"
+    },
+    "UnitNumberSortingExercise.Logic": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      //don't use pre-release libs
+      //"imports": "dnxcore50"
+    }
+  },
+
+  //Use additional runtimes for multiplatform use
+  "runtimes": {
+    "win7-x64": {}
+  }
+}

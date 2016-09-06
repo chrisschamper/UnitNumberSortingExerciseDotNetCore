@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "UnitNumberSortingExercise": {
+      "commandName": "Project",
+      "commandLineArgs": "units.txt"
+    }
+  }
+}
